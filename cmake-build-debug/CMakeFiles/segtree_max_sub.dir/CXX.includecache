@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mo/CLionProjects/algorithms/segment_tree_max_sum.cpp
+iostream
+-
+cmath
+-
+cstdio
+-
+cstring
+-
+cstdlib
+-
+cassert
+-
+ctime
+-
+sstream
+-
+algorithm
+-
+functional
+-
+numeric
+-
+string
+-
+vector
+-
+queue
+-
+stack
+-
+map
+-
+set
+-
+

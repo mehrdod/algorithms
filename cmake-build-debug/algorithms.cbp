@@ -37,6 +37,48 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/mo/CLionProjects/algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="segtree_max_sum">
+				<Option output="/Users/mo/CLionProjects/algorithms/cmake-build-debug/segtree_max_sum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mo/CLionProjects/algorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/mo/CLionProjects/algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 segtree_max_sum"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/mo/CLionProjects/algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/mo/CLionProjects/algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/mo/CLionProjects/algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="segtree_max_sum/fast">
+				<Option output="/Users/mo/CLionProjects/algorithms/cmake-build-debug/segtree_max_sum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mo/CLionProjects/algorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/mo/CLionProjects/algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 segtree_max_sum/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/mo/CLionProjects/algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/mo/CLionProjects/algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/mo/CLionProjects/algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="segtree_max_sub">
 				<Option output="/Users/mo/CLionProjects/algorithms/cmake-build-debug/segtree_max_sub" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/mo/CLionProjects/algorithms/cmake-build-debug"/>
@@ -83,7 +125,8 @@
 		<Unit filename="/Users/mo/CLionProjects/algorithms/segment_tree_max_subarray.cpp">
 			<Option target="segtree_max_sub"/>
 		</Unit>
-		<Unit filename="/Users/mo/CLionProjects/algorithms/segtree_max_sum.cpp">
+		<Unit filename="/Users/mo/CLionProjects/algorithms/segment_tree_max_sum.cpp">
+			<Option target="segtree_max_sum"/>
 			<Option target="segtree_max_sub"/>
 		</Unit>
 		<Unit filename="/Users/mo/CLionProjects/algorithms/CMakeLists.txt">

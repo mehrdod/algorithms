@@ -1,3 +1,4 @@
 /Users/mo/CLionProjects/algorithms/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/mo/CLionProjects/algorithms/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mo/CLionProjects/algorithms/cmake-build-debug/CMakeFiles/segtree_max_sum.dir
 /Users/mo/CLionProjects/algorithms/cmake-build-debug/CMakeFiles/segtree_max_sub.dir

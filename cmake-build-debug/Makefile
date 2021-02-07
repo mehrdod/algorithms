@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named segtree_max_sum
+
+# Build rule for target.
+segtree_max_sum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 segtree_max_sum
+.PHONY : segtree_max_sum
+
+# fast build rule for target.
+segtree_max_sum/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sum.dir/build.make CMakeFiles/segtree_max_sum.dir/build
+.PHONY : segtree_max_sum/fast
+
+#=============================================================================
 # Target rules for targets named segtree_max_sub
 
 # Build rule for target.
@@ -170,32 +183,35 @@ segment_tree_max_subarray.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/segment_tree_max_subarray.cpp.s
 .PHONY : segment_tree_max_subarray.cpp.s
 
-segtree_max_sum.o: segtree_max_sum.cpp.o
+segment_tree_max_sum.o: segment_tree_max_sum.cpp.o
 
-.PHONY : segtree_max_sum.o
+.PHONY : segment_tree_max_sum.o
 
 # target to build an object file
-segtree_max_sum.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/segtree_max_sum.cpp.o
-.PHONY : segtree_max_sum.cpp.o
+segment_tree_max_sum.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sum.dir/build.make CMakeFiles/segtree_max_sum.dir/segment_tree_max_sum.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/segment_tree_max_sum.cpp.o
+.PHONY : segment_tree_max_sum.cpp.o
 
-segtree_max_sum.i: segtree_max_sum.cpp.i
+segment_tree_max_sum.i: segment_tree_max_sum.cpp.i
 
-.PHONY : segtree_max_sum.i
+.PHONY : segment_tree_max_sum.i
 
 # target to preprocess a source file
-segtree_max_sum.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/segtree_max_sum.cpp.i
-.PHONY : segtree_max_sum.cpp.i
+segment_tree_max_sum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sum.dir/build.make CMakeFiles/segtree_max_sum.dir/segment_tree_max_sum.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/segment_tree_max_sum.cpp.i
+.PHONY : segment_tree_max_sum.cpp.i
 
-segtree_max_sum.s: segtree_max_sum.cpp.s
+segment_tree_max_sum.s: segment_tree_max_sum.cpp.s
 
-.PHONY : segtree_max_sum.s
+.PHONY : segment_tree_max_sum.s
 
 # target to generate assembly for a file
-segtree_max_sum.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/segtree_max_sum.cpp.s
-.PHONY : segtree_max_sum.cpp.s
+segment_tree_max_sum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sum.dir/build.make CMakeFiles/segtree_max_sum.dir/segment_tree_max_sum.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/segment_tree_max_sum.cpp.s
+.PHONY : segment_tree_max_sum.cpp.s
 
 # Help Target
 help:
@@ -206,12 +222,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... segtree_max_sub"
+	@echo "... segtree_max_sum"
 	@echo "... segment_tree_max_subarray.o"
 	@echo "... segment_tree_max_subarray.i"
 	@echo "... segment_tree_max_subarray.s"
-	@echo "... segtree_max_sum.o"
-	@echo "... segtree_max_sum.i"
-	@echo "... segtree_max_sum.s"
+	@echo "... segment_tree_max_sum.o"
+	@echo "... segment_tree_max_sum.i"
+	@echo "... segment_tree_max_sum.s"
 .PHONY : help
 
 
