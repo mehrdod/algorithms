@@ -83,6 +83,9 @@
 		<Unit filename="/Users/mo/CLionProjects/algorithms/segment_tree_max_subarray.cpp">
 			<Option target="segtree_max_sub"/>
 		</Unit>
+		<Unit filename="/Users/mo/CLionProjects/algorithms/segtree_max_sum.cpp">
+			<Option target="segtree_max_sub"/>
+		</Unit>
 		<Unit filename="/Users/mo/CLionProjects/algorithms/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

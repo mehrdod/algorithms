@@ -170,6 +170,33 @@ segment_tree_max_subarray.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/segment_tree_max_subarray.cpp.s
 .PHONY : segment_tree_max_subarray.cpp.s
 
+segtree_max_sum.o: segtree_max_sum.cpp.o
+
+.PHONY : segtree_max_sum.o
+
+# target to build an object file
+segtree_max_sum.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/segtree_max_sum.cpp.o
+.PHONY : segtree_max_sum.cpp.o
+
+segtree_max_sum.i: segtree_max_sum.cpp.i
+
+.PHONY : segtree_max_sum.i
+
+# target to preprocess a source file
+segtree_max_sum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/segtree_max_sum.cpp.i
+.PHONY : segtree_max_sum.cpp.i
+
+segtree_max_sum.s: segtree_max_sum.cpp.s
+
+.PHONY : segtree_max_sum.s
+
+# target to generate assembly for a file
+segtree_max_sum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/segtree_max_sum.cpp.s
+.PHONY : segtree_max_sum.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -182,6 +209,9 @@ help:
 	@echo "... segment_tree_max_subarray.o"
 	@echo "... segment_tree_max_subarray.i"
 	@echo "... segment_tree_max_subarray.s"
+	@echo "... segtree_max_sum.o"
+	@echo "... segtree_max_sum.i"
+	@echo "... segtree_max_sum.s"
 .PHONY : help
 
 
