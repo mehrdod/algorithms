@@ -73,7 +73,7 @@ CMAKE_BINARY_DIR = /Users/mo/CLionProjects/algorithms/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/algorithms.dir/all
+all: CMakeFiles/segtree_max_sub.dir/all
 
 .PHONY : all
 
@@ -83,36 +83,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/algorithms.dir/clean
+clean: CMakeFiles/segtree_max_sub.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/algorithms.dir
+# Target rules for target CMakeFiles/segtree_max_sub.dir
 
 # All Build rule for target.
-CMakeFiles/algorithms.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mo/CLionProjects/algorithms/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target algorithms"
-.PHONY : CMakeFiles/algorithms.dir/all
+CMakeFiles/segtree_max_sub.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mo/CLionProjects/algorithms/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target segtree_max_sub"
+.PHONY : CMakeFiles/segtree_max_sub.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/algorithms.dir/rule: cmake_check_build_system
+CMakeFiles/segtree_max_sub.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mo/CLionProjects/algorithms/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/algorithms.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/segtree_max_sub.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mo/CLionProjects/algorithms/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/algorithms.dir/rule
+.PHONY : CMakeFiles/segtree_max_sub.dir/rule
 
 # Convenience name for target.
-algorithms: CMakeFiles/algorithms.dir/rule
+segtree_max_sub: CMakeFiles/segtree_max_sub.dir/rule
 
-.PHONY : algorithms
+.PHONY : segtree_max_sub
 
 # clean rule for target.
-CMakeFiles/algorithms.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/clean
-.PHONY : CMakeFiles/algorithms.dir/clean
+CMakeFiles/segtree_max_sub.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/clean
+.PHONY : CMakeFiles/segtree_max_sub.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -6,7 +6,39 @@
 
 #IncludeRegexTransform: 
 
-/Users/mo/CLionProjects/algorithms/main.cpp
+/Users/mo/CLionProjects/algorithms/segment_tree_max_subarray.cpp
 iostream
+-
+cmath
+-
+cstdio
+-
+cstring
+-
+cstdlib
+-
+cassert
+-
+ctime
+-
+sstream
+-
+algorithm
+-
+functional
+-
+numeric
+-
+string
+-
+vector
+-
+queue
+-
+stack
+-
+map
+-
+set
 -
 

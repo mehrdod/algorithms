@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/algorithms.dir/main.cpp.o"
+  "CMakeFiles/algorithms.dir/segment_tree_max_subarray.cpp.o"
   "algorithms"
   "algorithms.pdb"
 )

@@ -131,44 +131,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named algorithms
+# Target rules for targets named segtree_max_sub
 
 # Build rule for target.
-algorithms: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 algorithms
-.PHONY : algorithms
+segtree_max_sub: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 segtree_max_sub
+.PHONY : segtree_max_sub
 
 # fast build rule for target.
-algorithms/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/build
-.PHONY : algorithms/fast
+segtree_max_sub/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/build
+.PHONY : segtree_max_sub/fast
 
-main.o: main.cpp.o
+segment_tree_max_subarray.o: segment_tree_max_subarray.cpp.o
 
-.PHONY : main.o
+.PHONY : segment_tree_max_subarray.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/main.cpp.o
-.PHONY : main.cpp.o
+segment_tree_max_subarray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/segment_tree_max_subarray.cpp.o
+.PHONY : segment_tree_max_subarray.cpp.o
 
-main.i: main.cpp.i
+segment_tree_max_subarray.i: segment_tree_max_subarray.cpp.i
 
-.PHONY : main.i
+.PHONY : segment_tree_max_subarray.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/main.cpp.i
-.PHONY : main.cpp.i
+segment_tree_max_subarray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/segment_tree_max_subarray.cpp.i
+.PHONY : segment_tree_max_subarray.cpp.i
 
-main.s: main.cpp.s
+segment_tree_max_subarray.s: segment_tree_max_subarray.cpp.s
 
-.PHONY : main.s
+.PHONY : segment_tree_max_subarray.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/main.cpp.s
-.PHONY : main.cpp.s
+segment_tree_max_subarray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/segment_tree_max_subarray.cpp.s
+.PHONY : segment_tree_max_subarray.cpp.s
 
 # Help Target
 help:
@@ -178,10 +178,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... algorithms"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... segtree_max_sub"
+	@echo "... segment_tree_max_subarray.o"
+	@echo "... segment_tree_max_subarray.i"
+	@echo "... segment_tree_max_subarray.s"
 .PHONY : help
 
 

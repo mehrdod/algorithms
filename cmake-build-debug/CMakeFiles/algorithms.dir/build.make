@@ -77,27 +77,27 @@ include CMakeFiles/algorithms.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/algorithms.dir/flags.make
 
-CMakeFiles/algorithms.dir/main.cpp.o: CMakeFiles/algorithms.dir/flags.make
-CMakeFiles/algorithms.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mo/CLionProjects/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/algorithms.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algorithms.dir/main.cpp.o -c /Users/mo/CLionProjects/algorithms/main.cpp
+CMakeFiles/algorithms.dir/segment_tree_max_subarray.cpp.o: CMakeFiles/algorithms.dir/flags.make
+CMakeFiles/algorithms.dir/segment_tree_max_subarray.cpp.o: ../segment_tree_max_subarray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mo/CLionProjects/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/algorithms.dir/segment_tree_max_subarray.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algorithms.dir/segment_tree_max_subarray.cpp.o -c /Users/mo/CLionProjects/algorithms/segment_tree_max_subarray.cpp
 
-CMakeFiles/algorithms.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algorithms.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mo/CLionProjects/algorithms/main.cpp > CMakeFiles/algorithms.dir/main.cpp.i
+CMakeFiles/algorithms.dir/segment_tree_max_subarray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algorithms.dir/segment_tree_max_subarray.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mo/CLionProjects/algorithms/segment_tree_max_subarray.cpp > CMakeFiles/algorithms.dir/segment_tree_max_subarray.cpp.i
 
-CMakeFiles/algorithms.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algorithms.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mo/CLionProjects/algorithms/main.cpp -o CMakeFiles/algorithms.dir/main.cpp.s
+CMakeFiles/algorithms.dir/segment_tree_max_subarray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algorithms.dir/segment_tree_max_subarray.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mo/CLionProjects/algorithms/segment_tree_max_subarray.cpp -o CMakeFiles/algorithms.dir/segment_tree_max_subarray.cpp.s
 
 # Object files for target algorithms
 algorithms_OBJECTS = \
-"CMakeFiles/algorithms.dir/main.cpp.o"
+"CMakeFiles/algorithms.dir/segment_tree_max_subarray.cpp.o"
 
 # External object files for target algorithms
 algorithms_EXTERNAL_OBJECTS =
 
-algorithms: CMakeFiles/algorithms.dir/main.cpp.o
+algorithms: CMakeFiles/algorithms.dir/segment_tree_max_subarray.cpp.o
 algorithms: CMakeFiles/algorithms.dir/build.make
 algorithms: CMakeFiles/algorithms.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mo/CLionProjects/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable algorithms"
