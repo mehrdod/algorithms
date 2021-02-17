@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named hashing_modulo
+
+# Build rule for target.
+hashing_modulo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hashing_modulo
+.PHONY : hashing_modulo
+
+# fast build rule for target.
+hashing_modulo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashing_modulo.dir/build.make CMakeFiles/hashing_modulo.dir/build
+.PHONY : hashing_modulo/fast
+
+#=============================================================================
 # Target rules for targets named hashing_long_long
 
 # Build rule for target.
@@ -279,33 +292,6 @@ data_structures/segment_tree_max_sum.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/data_structures/segment_tree_max_sum.cpp.s
 .PHONY : data_structures/segment_tree_max_sum.cpp.s
 
-hashing_long_long.o: hashing_long_long.cpp.o
-
-.PHONY : hashing_long_long.o
-
-# target to build an object file
-hashing_long_long.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashing_long_long.dir/build.make CMakeFiles/hashing_long_long.dir/hashing_long_long.cpp.o
-.PHONY : hashing_long_long.cpp.o
-
-hashing_long_long.i: hashing_long_long.cpp.i
-
-.PHONY : hashing_long_long.i
-
-# target to preprocess a source file
-hashing_long_long.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashing_long_long.dir/build.make CMakeFiles/hashing_long_long.dir/hashing_long_long.cpp.i
-.PHONY : hashing_long_long.cpp.i
-
-hashing_long_long.s: hashing_long_long.cpp.s
-
-.PHONY : hashing_long_long.s
-
-# target to generate assembly for a file
-hashing_long_long.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashing_long_long.dir/build.make CMakeFiles/hashing_long_long.dir/hashing_long_long.cpp.s
-.PHONY : hashing_long_long.cpp.s
-
 pair.o: pair.cpp.o
 
 .PHONY : pair.o
@@ -333,6 +319,60 @@ pair.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pair.dir/build.make CMakeFiles/pair.dir/pair.cpp.s
 .PHONY : pair.cpp.s
 
+strings/hashing_long_long.o: strings/hashing_long_long.cpp.o
+
+.PHONY : strings/hashing_long_long.o
+
+# target to build an object file
+strings/hashing_long_long.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashing_long_long.dir/build.make CMakeFiles/hashing_long_long.dir/strings/hashing_long_long.cpp.o
+.PHONY : strings/hashing_long_long.cpp.o
+
+strings/hashing_long_long.i: strings/hashing_long_long.cpp.i
+
+.PHONY : strings/hashing_long_long.i
+
+# target to preprocess a source file
+strings/hashing_long_long.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashing_long_long.dir/build.make CMakeFiles/hashing_long_long.dir/strings/hashing_long_long.cpp.i
+.PHONY : strings/hashing_long_long.cpp.i
+
+strings/hashing_long_long.s: strings/hashing_long_long.cpp.s
+
+.PHONY : strings/hashing_long_long.s
+
+# target to generate assembly for a file
+strings/hashing_long_long.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashing_long_long.dir/build.make CMakeFiles/hashing_long_long.dir/strings/hashing_long_long.cpp.s
+.PHONY : strings/hashing_long_long.cpp.s
+
+strings/hashing_modulo.o: strings/hashing_modulo.cpp.o
+
+.PHONY : strings/hashing_modulo.o
+
+# target to build an object file
+strings/hashing_modulo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashing_modulo.dir/build.make CMakeFiles/hashing_modulo.dir/strings/hashing_modulo.cpp.o
+.PHONY : strings/hashing_modulo.cpp.o
+
+strings/hashing_modulo.i: strings/hashing_modulo.cpp.i
+
+.PHONY : strings/hashing_modulo.i
+
+# target to preprocess a source file
+strings/hashing_modulo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashing_modulo.dir/build.make CMakeFiles/hashing_modulo.dir/strings/hashing_modulo.cpp.i
+.PHONY : strings/hashing_modulo.cpp.i
+
+strings/hashing_modulo.s: strings/hashing_modulo.cpp.s
+
+.PHONY : strings/hashing_modulo.s
+
+# target to generate assembly for a file
+strings/hashing_modulo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashing_modulo.dir/build.make CMakeFiles/hashing_modulo.dir/strings/hashing_modulo.cpp.s
+.PHONY : strings/hashing_modulo.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -343,6 +383,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... cnk_by_modulo"
 	@echo "... hashing_long_long"
+	@echo "... hashing_modulo"
 	@echo "... pair"
 	@echo "... segtree_max_sub"
 	@echo "... segtree_max_sum"
@@ -355,12 +396,15 @@ help:
 	@echo "... data_structures/segment_tree_max_sum.o"
 	@echo "... data_structures/segment_tree_max_sum.i"
 	@echo "... data_structures/segment_tree_max_sum.s"
-	@echo "... hashing_long_long.o"
-	@echo "... hashing_long_long.i"
-	@echo "... hashing_long_long.s"
 	@echo "... pair.o"
 	@echo "... pair.i"
 	@echo "... pair.s"
+	@echo "... strings/hashing_long_long.o"
+	@echo "... strings/hashing_long_long.i"
+	@echo "... strings/hashing_long_long.s"
+	@echo "... strings/hashing_modulo.o"
+	@echo "... strings/hashing_modulo.i"
+	@echo "... strings/hashing_modulo.s"
 .PHONY : help
 
 
