@@ -74,6 +74,8 @@ CMAKE_BINARY_DIR = /Users/mo/CLionProjects/algorithms/cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/segtree_max_sum.dir/all
+all: CMakeFiles/cnk_by_modulo.dir/all
+all: CMakeFiles/pair.dir/all
 all: CMakeFiles/segtree_max_sub.dir/all
 
 .PHONY : all
@@ -85,6 +87,8 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/segtree_max_sum.dir/clean
+clean: CMakeFiles/cnk_by_modulo.dir/clean
+clean: CMakeFiles/pair.dir/clean
 clean: CMakeFiles/segtree_max_sub.dir/clean
 
 .PHONY : clean
@@ -96,7 +100,7 @@ clean: CMakeFiles/segtree_max_sub.dir/clean
 CMakeFiles/segtree_max_sum.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sum.dir/build.make CMakeFiles/segtree_max_sum.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sum.dir/build.make CMakeFiles/segtree_max_sum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mo/CLionProjects/algorithms/cmake-build-debug/CMakeFiles --progress-num=4,5 "Built target segtree_max_sum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mo/CLionProjects/algorithms/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target segtree_max_sum"
 .PHONY : CMakeFiles/segtree_max_sum.dir/all
 
 # Build rule for subdir invocation for target.
@@ -117,13 +121,67 @@ CMakeFiles/segtree_max_sum.dir/clean:
 .PHONY : CMakeFiles/segtree_max_sum.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/cnk_by_modulo.dir
+
+# All Build rule for target.
+CMakeFiles/cnk_by_modulo.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnk_by_modulo.dir/build.make CMakeFiles/cnk_by_modulo.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnk_by_modulo.dir/build.make CMakeFiles/cnk_by_modulo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mo/CLionProjects/algorithms/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target cnk_by_modulo"
+.PHONY : CMakeFiles/cnk_by_modulo.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/cnk_by_modulo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mo/CLionProjects/algorithms/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cnk_by_modulo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mo/CLionProjects/algorithms/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/cnk_by_modulo.dir/rule
+
+# Convenience name for target.
+cnk_by_modulo: CMakeFiles/cnk_by_modulo.dir/rule
+
+.PHONY : cnk_by_modulo
+
+# clean rule for target.
+CMakeFiles/cnk_by_modulo.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnk_by_modulo.dir/build.make CMakeFiles/cnk_by_modulo.dir/clean
+.PHONY : CMakeFiles/cnk_by_modulo.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pair.dir
+
+# All Build rule for target.
+CMakeFiles/pair.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pair.dir/build.make CMakeFiles/pair.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pair.dir/build.make CMakeFiles/pair.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mo/CLionProjects/algorithms/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target pair"
+.PHONY : CMakeFiles/pair.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pair.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mo/CLionProjects/algorithms/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pair.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mo/CLionProjects/algorithms/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/pair.dir/rule
+
+# Convenience name for target.
+pair: CMakeFiles/pair.dir/rule
+
+.PHONY : pair
+
+# clean rule for target.
+CMakeFiles/pair.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pair.dir/build.make CMakeFiles/pair.dir/clean
+.PHONY : CMakeFiles/pair.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/segtree_max_sub.dir
 
 # All Build rule for target.
 CMakeFiles/segtree_max_sub.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mo/CLionProjects/algorithms/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target segtree_max_sub"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mo/CLionProjects/algorithms/cmake-build-debug/CMakeFiles --progress-num=5,6,7 "Built target segtree_max_sub"
 .PHONY : CMakeFiles/segtree_max_sub.dir/all
 
 # Build rule for subdir invocation for target.

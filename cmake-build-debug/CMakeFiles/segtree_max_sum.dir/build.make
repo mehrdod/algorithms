@@ -77,27 +77,27 @@ include CMakeFiles/segtree_max_sum.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/segtree_max_sum.dir/flags.make
 
-CMakeFiles/segtree_max_sum.dir/segment_tree_max_sum.cpp.o: CMakeFiles/segtree_max_sum.dir/flags.make
-CMakeFiles/segtree_max_sum.dir/segment_tree_max_sum.cpp.o: ../segment_tree_max_sum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mo/CLionProjects/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/segtree_max_sum.dir/segment_tree_max_sum.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/segtree_max_sum.dir/segment_tree_max_sum.cpp.o -c /Users/mo/CLionProjects/algorithms/segment_tree_max_sum.cpp
+CMakeFiles/segtree_max_sum.dir/data_structures/segment_tree_max_sum.cpp.o: CMakeFiles/segtree_max_sum.dir/flags.make
+CMakeFiles/segtree_max_sum.dir/data_structures/segment_tree_max_sum.cpp.o: ../data\ structures/segment_tree_max_sum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mo/CLionProjects/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/segtree_max_sum.dir/data_structures/segment_tree_max_sum.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/segtree_max_sum.dir/data_structures/segment_tree_max_sum.cpp.o -c "/Users/mo/CLionProjects/algorithms/data structures/segment_tree_max_sum.cpp"
 
-CMakeFiles/segtree_max_sum.dir/segment_tree_max_sum.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/segtree_max_sum.dir/segment_tree_max_sum.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mo/CLionProjects/algorithms/segment_tree_max_sum.cpp > CMakeFiles/segtree_max_sum.dir/segment_tree_max_sum.cpp.i
+CMakeFiles/segtree_max_sum.dir/data_structures/segment_tree_max_sum.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/segtree_max_sum.dir/data_structures/segment_tree_max_sum.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/mo/CLionProjects/algorithms/data structures/segment_tree_max_sum.cpp" > CMakeFiles/segtree_max_sum.dir/data_structures/segment_tree_max_sum.cpp.i
 
-CMakeFiles/segtree_max_sum.dir/segment_tree_max_sum.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/segtree_max_sum.dir/segment_tree_max_sum.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mo/CLionProjects/algorithms/segment_tree_max_sum.cpp -o CMakeFiles/segtree_max_sum.dir/segment_tree_max_sum.cpp.s
+CMakeFiles/segtree_max_sum.dir/data_structures/segment_tree_max_sum.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/segtree_max_sum.dir/data_structures/segment_tree_max_sum.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/mo/CLionProjects/algorithms/data structures/segment_tree_max_sum.cpp" -o CMakeFiles/segtree_max_sum.dir/data_structures/segment_tree_max_sum.cpp.s
 
 # Object files for target segtree_max_sum
 segtree_max_sum_OBJECTS = \
-"CMakeFiles/segtree_max_sum.dir/segment_tree_max_sum.cpp.o"
+"CMakeFiles/segtree_max_sum.dir/data_structures/segment_tree_max_sum.cpp.o"
 
 # External object files for target segtree_max_sum
 segtree_max_sum_EXTERNAL_OBJECTS =
 
-segtree_max_sum: CMakeFiles/segtree_max_sum.dir/segment_tree_max_sum.cpp.o
+segtree_max_sum: CMakeFiles/segtree_max_sum.dir/data_structures/segment_tree_max_sum.cpp.o
 segtree_max_sum: CMakeFiles/segtree_max_sum.dir/build.make
 segtree_max_sum: CMakeFiles/segtree_max_sum.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mo/CLionProjects/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable segtree_max_sum"

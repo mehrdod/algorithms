@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/segtree_max_sum.dir/segment_tree_max_sum.cpp.o"
+  "CMakeFiles/segtree_max_sum.dir/data_structures/segment_tree_max_sum.cpp.o"
   "segtree_max_sum"
   "segtree_max_sum.pdb"
 )

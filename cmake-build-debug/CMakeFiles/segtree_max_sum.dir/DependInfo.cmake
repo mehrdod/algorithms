@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/mo/CLionProjects/algorithms/segment_tree_max_sum.cpp" "/Users/mo/CLionProjects/algorithms/cmake-build-debug/CMakeFiles/segtree_max_sum.dir/segment_tree_max_sum.cpp.o"
+  "/Users/mo/CLionProjects/algorithms/data structures/segment_tree_max_sum.cpp" "/Users/mo/CLionProjects/algorithms/cmake-build-debug/CMakeFiles/segtree_max_sum.dir/data_structures/segment_tree_max_sum.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

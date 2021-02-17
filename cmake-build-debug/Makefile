@@ -144,6 +144,32 @@ segtree_max_sum/fast:
 .PHONY : segtree_max_sum/fast
 
 #=============================================================================
+# Target rules for targets named cnk_by_modulo
+
+# Build rule for target.
+cnk_by_modulo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cnk_by_modulo
+.PHONY : cnk_by_modulo
+
+# fast build rule for target.
+cnk_by_modulo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnk_by_modulo.dir/build.make CMakeFiles/cnk_by_modulo.dir/build
+.PHONY : cnk_by_modulo/fast
+
+#=============================================================================
+# Target rules for targets named pair
+
+# Build rule for target.
+pair: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pair
+.PHONY : pair
+
+# fast build rule for target.
+pair/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pair.dir/build.make CMakeFiles/pair.dir/build
+.PHONY : pair/fast
+
+#=============================================================================
 # Target rules for targets named segtree_max_sub
 
 # Build rule for target.
@@ -156,62 +182,116 @@ segtree_max_sub/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/build
 .PHONY : segtree_max_sub/fast
 
-segment_tree_max_subarray.o: segment_tree_max_subarray.cpp.o
+cnk_by_modulo.o: cnk_by_modulo.cpp.o
 
-.PHONY : segment_tree_max_subarray.o
-
-# target to build an object file
-segment_tree_max_subarray.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/segment_tree_max_subarray.cpp.o
-.PHONY : segment_tree_max_subarray.cpp.o
-
-segment_tree_max_subarray.i: segment_tree_max_subarray.cpp.i
-
-.PHONY : segment_tree_max_subarray.i
-
-# target to preprocess a source file
-segment_tree_max_subarray.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/segment_tree_max_subarray.cpp.i
-.PHONY : segment_tree_max_subarray.cpp.i
-
-segment_tree_max_subarray.s: segment_tree_max_subarray.cpp.s
-
-.PHONY : segment_tree_max_subarray.s
-
-# target to generate assembly for a file
-segment_tree_max_subarray.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/segment_tree_max_subarray.cpp.s
-.PHONY : segment_tree_max_subarray.cpp.s
-
-segment_tree_max_sum.o: segment_tree_max_sum.cpp.o
-
-.PHONY : segment_tree_max_sum.o
+.PHONY : cnk_by_modulo.o
 
 # target to build an object file
-segment_tree_max_sum.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sum.dir/build.make CMakeFiles/segtree_max_sum.dir/segment_tree_max_sum.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/segment_tree_max_sum.cpp.o
-.PHONY : segment_tree_max_sum.cpp.o
+cnk_by_modulo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnk_by_modulo.dir/build.make CMakeFiles/cnk_by_modulo.dir/cnk_by_modulo.cpp.o
+.PHONY : cnk_by_modulo.cpp.o
 
-segment_tree_max_sum.i: segment_tree_max_sum.cpp.i
+cnk_by_modulo.i: cnk_by_modulo.cpp.i
 
-.PHONY : segment_tree_max_sum.i
+.PHONY : cnk_by_modulo.i
 
 # target to preprocess a source file
-segment_tree_max_sum.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sum.dir/build.make CMakeFiles/segtree_max_sum.dir/segment_tree_max_sum.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/segment_tree_max_sum.cpp.i
-.PHONY : segment_tree_max_sum.cpp.i
+cnk_by_modulo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnk_by_modulo.dir/build.make CMakeFiles/cnk_by_modulo.dir/cnk_by_modulo.cpp.i
+.PHONY : cnk_by_modulo.cpp.i
 
-segment_tree_max_sum.s: segment_tree_max_sum.cpp.s
+cnk_by_modulo.s: cnk_by_modulo.cpp.s
 
-.PHONY : segment_tree_max_sum.s
+.PHONY : cnk_by_modulo.s
 
 # target to generate assembly for a file
-segment_tree_max_sum.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sum.dir/build.make CMakeFiles/segtree_max_sum.dir/segment_tree_max_sum.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/segment_tree_max_sum.cpp.s
-.PHONY : segment_tree_max_sum.cpp.s
+cnk_by_modulo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cnk_by_modulo.dir/build.make CMakeFiles/cnk_by_modulo.dir/cnk_by_modulo.cpp.s
+.PHONY : cnk_by_modulo.cpp.s
+
+data_structures/segment_tree_max_subarray.o: data_structures/segment_tree_max_subarray.cpp.o
+
+.PHONY : data_structures/segment_tree_max_subarray.o
+
+# target to build an object file
+data_structures/segment_tree_max_subarray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/data_structures/segment_tree_max_subarray.cpp.o
+.PHONY : data_structures/segment_tree_max_subarray.cpp.o
+
+data_structures/segment_tree_max_subarray.i: data_structures/segment_tree_max_subarray.cpp.i
+
+.PHONY : data_structures/segment_tree_max_subarray.i
+
+# target to preprocess a source file
+data_structures/segment_tree_max_subarray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/data_structures/segment_tree_max_subarray.cpp.i
+.PHONY : data_structures/segment_tree_max_subarray.cpp.i
+
+data_structures/segment_tree_max_subarray.s: data_structures/segment_tree_max_subarray.cpp.s
+
+.PHONY : data_structures/segment_tree_max_subarray.s
+
+# target to generate assembly for a file
+data_structures/segment_tree_max_subarray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/data_structures/segment_tree_max_subarray.cpp.s
+.PHONY : data_structures/segment_tree_max_subarray.cpp.s
+
+data_structures/segment_tree_max_sum.o: data_structures/segment_tree_max_sum.cpp.o
+
+.PHONY : data_structures/segment_tree_max_sum.o
+
+# target to build an object file
+data_structures/segment_tree_max_sum.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sum.dir/build.make CMakeFiles/segtree_max_sum.dir/data_structures/segment_tree_max_sum.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/data_structures/segment_tree_max_sum.cpp.o
+.PHONY : data_structures/segment_tree_max_sum.cpp.o
+
+data_structures/segment_tree_max_sum.i: data_structures/segment_tree_max_sum.cpp.i
+
+.PHONY : data_structures/segment_tree_max_sum.i
+
+# target to preprocess a source file
+data_structures/segment_tree_max_sum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sum.dir/build.make CMakeFiles/segtree_max_sum.dir/data_structures/segment_tree_max_sum.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/data_structures/segment_tree_max_sum.cpp.i
+.PHONY : data_structures/segment_tree_max_sum.cpp.i
+
+data_structures/segment_tree_max_sum.s: data_structures/segment_tree_max_sum.cpp.s
+
+.PHONY : data_structures/segment_tree_max_sum.s
+
+# target to generate assembly for a file
+data_structures/segment_tree_max_sum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sum.dir/build.make CMakeFiles/segtree_max_sum.dir/data_structures/segment_tree_max_sum.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segtree_max_sub.dir/build.make CMakeFiles/segtree_max_sub.dir/data_structures/segment_tree_max_sum.cpp.s
+.PHONY : data_structures/segment_tree_max_sum.cpp.s
+
+pair.o: pair.cpp.o
+
+.PHONY : pair.o
+
+# target to build an object file
+pair.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pair.dir/build.make CMakeFiles/pair.dir/pair.cpp.o
+.PHONY : pair.cpp.o
+
+pair.i: pair.cpp.i
+
+.PHONY : pair.i
+
+# target to preprocess a source file
+pair.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pair.dir/build.make CMakeFiles/pair.dir/pair.cpp.i
+.PHONY : pair.cpp.i
+
+pair.s: pair.cpp.s
+
+.PHONY : pair.s
+
+# target to generate assembly for a file
+pair.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pair.dir/build.make CMakeFiles/pair.dir/pair.cpp.s
+.PHONY : pair.cpp.s
 
 # Help Target
 help:
@@ -221,14 +301,22 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... cnk_by_modulo"
+	@echo "... pair"
 	@echo "... segtree_max_sub"
 	@echo "... segtree_max_sum"
-	@echo "... segment_tree_max_subarray.o"
-	@echo "... segment_tree_max_subarray.i"
-	@echo "... segment_tree_max_subarray.s"
-	@echo "... segment_tree_max_sum.o"
-	@echo "... segment_tree_max_sum.i"
-	@echo "... segment_tree_max_sum.s"
+	@echo "... cnk_by_modulo.o"
+	@echo "... cnk_by_modulo.i"
+	@echo "... cnk_by_modulo.s"
+	@echo "... data_structures/segment_tree_max_subarray.o"
+	@echo "... data_structures/segment_tree_max_subarray.i"
+	@echo "... data_structures/segment_tree_max_subarray.s"
+	@echo "... data_structures/segment_tree_max_sum.o"
+	@echo "... data_structures/segment_tree_max_sum.i"
+	@echo "... data_structures/segment_tree_max_sum.s"
+	@echo "... pair.o"
+	@echo "... pair.i"
+	@echo "... pair.s"
 .PHONY : help
 
 
