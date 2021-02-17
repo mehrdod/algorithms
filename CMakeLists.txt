@@ -7,3 +7,4 @@ add_executable(segtree_max_sub "data structures/segment_tree_max_subarray.cpp" "
 add_executable(segtree_max_sum "data structures/segment_tree_max_sum.cpp" "data structures/segment_tree_max_sum.cpp")
 add_executable(pair pair.cpp pair.cpp)
 add_executable(cnk_by_modulo cnk_by_modulo.cpp cnk_by_modulo.cpp)
+add_executable(hashing_long_long strings/hashing_long_long.cpp strings/hashing_long_long.cpp)
