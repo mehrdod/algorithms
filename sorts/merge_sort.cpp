@@ -40,19 +40,7 @@ void mySort(vector<int> &nums, int left, int right) {
     mySort(nums, mid + 1, right);
     vector<int> unite(right - left + 1);
     int uniteLen = 0, i = left, j = mid + 1;
-    while (uniteLen < right - left + 1) {
-        if (j > right) {
-            unite[uniteLen] = nums[i];
-            i++;
-            uniteLen++;
-            continue;
-        }
-        if (i > mid) {
-            unite[uniteLen] = nums[j];
-            j++;
-            uniteLen++;
-            continue;
-        }
+    while (i <= mid && j <= right) {
         if (nums[i] < nums[j]) {
             unite[uniteLen] = nums[i];
             i++;
@@ -62,10 +50,19 @@ void mySort(vector<int> &nums, int left, int right) {
         }
         uniteLen++;
     }
+    while (i <= mid) {
+        unite[uniteLen] = nums[i];
+        i++; uniteLen++;
+    }
+    while (j <= right) {
+        unite[uniteLen] = nums[j];
+        j++; uniteLen++;
+    }
     for (int i = 0; i < unite.size(); i++) {
         nums[i + left] = unite[i];
     }
 }
+
 
 void solve() {
     int n;
